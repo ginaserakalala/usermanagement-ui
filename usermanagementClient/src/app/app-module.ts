@@ -20,8 +20,6 @@ import {AppRoutingModule} from "./app.routes";
     AppRoutingModule,
     HttpClientModule,
     FormsModule
-  ],
-  providers: [UserService],
-  bootstrap: [AppComponent]
+  ]
 })
 export class AppModule { }
